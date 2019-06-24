@@ -9,6 +9,23 @@
 		<link rel="icon" href="percent.png" alt="percent">
 	</head>
 	<body>
-
+		<noscript>In your device don't work JavaScript's functions.</noscript>
+	    <div class="main">
+	    	<h1 class="heading1">CALCULATOR FOR CHILDREN !</h1>
+	    	<div class="div1">
+	    		<form onreset="Res()">
+	    			<input type="text" id="input1" class="input" placeholder="Number">
+	    			<input type="text" id="input2" class="input" placeholder="Number">
+	    			<input type="text" id="input3" class="input" placeholder="Answer">
+	    			<input type="reset" class="input button1" value="Delete" name="del">
+	    		</form>
+	    	</div>
+	    	<div class="div2">
+	    		<button type="button" class="input button1 font" onclick="Add()">+</button>
+	    		<button type="button" class="input button1 font" onclick="Sub()">-</button>
+	    		<button type="button" class="input button1 font" onclick="Mult()">*</button>
+	    		<button type="button" class="input button1 font" onclick="Div()">/</button>
+	    	</div>
+	    </div>
 	</body>
 </html>
